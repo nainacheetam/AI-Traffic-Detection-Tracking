@@ -24,3 +24,13 @@ The project follows a computer vision-based traffic monitoring pipeline.
 6. **Virtual Counting Line:** A predefined horizontal line is used to identify vehicle crossings.
 7. **Event Recording:** Vehicle IDs, predicted categories, crossing times and directions are recorded.
 8. **Traffic Analysis:** Pandas processes the event dataset, while Matplotlib generates the analytics dashboard.
+9. ## Limitations
+
+The current prototype has the following limitations:
+
+1. **Short Video Duration:** The analysis uses approximately 16.07 seconds of traffic footage, which is insufficient for long-duration traffic studies.
+2. **Detection Errors:** Some vehicles may be missed or incorrectly classified by the YOLO model.
+3. **Tracking Fragmentation:** A vehicle may receive a different tracking ID if tracking is interrupted.
+4. **Counting Uncertainty:** The AI-generated crossing count has not yet been independently validated against manual ground-truth counts.
+5. **Limited Traffic Analysis:** Peak-hour traffic, hourly variation and congestion cannot be reliably determined from this short sample.
+6. **Camera Dependency:** Detection performance may vary with camera angle, lighting, vehicle overlap and video quality.

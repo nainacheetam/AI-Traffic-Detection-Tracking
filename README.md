@@ -25,6 +25,18 @@ The project follows a computer vision-based traffic monitoring pipeline.
 7. **Event Recording:** Vehicle IDs, predicted categories, crossing times and directions are recorded.
 8. **Traffic Analysis:** Pandas processes the event dataset, while Matplotlib generates the analytics dashboard.
 9. ## Limitations
+10. ## Future Improvements
+
+The project can be extended through the following improvements:
+
+1. **Manual Ground-Truth Validation:** Compare AI-generated vehicle counts with manually verified vehicle crossings.
+2. **Longer Video Analysis:** Test the system on longer traffic recordings to study traffic patterns more reliably.
+3. **Improved Detection:** Experiment with detection confidence thresholds and model configurations.
+4. **Tracking Optimisation:** Improve tracking consistency and reduce ID fragmentation.
+5. **Direction-Wise Analysis:** Analyse traffic volume separately for different movement directions.
+6. **PCU-Based Analysis:** Extend vehicle composition analysis using Passenger Car Unit (PCU) factors.
+7. **Traffic Density Estimation:** Explore vehicle density and congestion monitoring.
+8. **Real-Time Monitoring:** Develop a system for processing live traffic camera feeds.
 
 The current prototype has the following limitations:
 
